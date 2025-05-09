@@ -28,13 +28,13 @@
         name="sapphire"
         path="device/xiaomi/sapphire"
         remote="rdwv"
-        revision="main" />
+        revision="15.0" />
     <!-- Proprietary vendor blobs for sapphire -->
   <project
         name="prop_sapphire"
         path="vendor/xiaomi/sapphire"
         remote="rdwv"
-        revision="main" />
+        revision="15.0" />
 
   <!-- AOSP Projects -->
   <project path="build/make" name="LineageOS/android_build" groups="pdk,sysui-studio" >
