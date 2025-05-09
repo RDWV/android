@@ -5,10 +5,9 @@
            fetch=".."
            review="review.lineageos.org" />
     <!-- Remote definition for RDWV GitHub repos -->
-  <remote
-          name="rdwv"
-          fetch="https://github.com/RDWV/"
-          review=""/>
+  <remote  name="rdwv"
+           fetch="https://github.com/RDWV/"
+           review=""  />
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -27,13 +26,13 @@
     <!-- Device tree for sapphire device -->
   <project
         name="sapphire"
-        path="device/manufacturer/sapphire"
+        path="device/xiaomi/sapphire"
         remote="rdwv"
         revision="main" />
     <!-- Proprietary vendor blobs for sapphire -->
   <project
         name="prop_sapphire"
-        path="vendor/manufacturer/sapphire"
+        path="vendor/xiaomi/sapphire"
         remote="rdwv"
         revision="main" />
 
