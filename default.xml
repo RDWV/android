@@ -27,7 +27,7 @@
   <project name="sapphire" path="device/xiaomi/sapphire" remote="rdwv" revision="15.0" />
   <project name="prop_sapphire" path="vendor/xiaomi/sapphire" remote="rdwv" revision="15.0" />
 <project name="kernel_sapphire" path="device/xiaomi/sapphire-kernel" remote="rdwv" revision="15.0" />
-
+<project name="sepolicy" path="device/qcom/sepolicy_vndr/sm6225/" remote="rdwv" revision="main" />
     <!-- Proprietary vendor blobs for sapphire -->
 
   <!-- AOSP Projects -->
